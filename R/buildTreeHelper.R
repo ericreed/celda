@@ -645,6 +645,7 @@
         maxVal <- featValuesKeep[which.max(IG)]
         wMax <- max(which(featValuesSort == maxVal))
         IGvalue <- mean(c(featValuesSort[wMax], featValuesSort[wMax + 1]))
+        
     } else {
         IGreturn <- 0
         IGvalue <- NA
